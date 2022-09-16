@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 8.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+}
+
+.container {
+  background: #f7f7f7;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.titulo li {
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 8px;
+}
+
+.titulo li img {
+  margin-right: 4px;
+}
+
+.titulo img {
+  max-height: 16px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 100px;
+  padding: 8px 16px; /*  top/bottom - left/right  */
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+}
+
+.projetos {
+  flex-grow: 2;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.projetos-titulos {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  list-style: none;
+  margin-top: 8px;
+}
+
+.projetos-item {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  list-style-type: none;
+}
+
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+p codepen {
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.logo-github {
+  filter: invert(5%) sepia(0%) saturate(0%) hue-rotate(194deg) brightness(102%)
+    contrast(91%);
+}
+
+.logo-linkedin {
+  filter: invert(28%) sepia(72%) saturate(7492%) hue-rotate(200deg)
+    brightness(94%) contrast(92%);
+}
+
+.logo-instagram {
+  filter: invert(34%) sepia(68%) saturate(3320%) hue-rotate(328deg)
+    brightness(96%) contrast(85%);
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #f7f7f7;
+}
+
+.dark a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .logo-github {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(225deg)
+    brightness(110%) contrast(105%);
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+}
+
+.conquistas {
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.conquistas-foto {
+  align: center;
+  width: 150px;
+}
+
+.quadros {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.conquistas-titulos {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  padding-left: 0;
+}
+
+.conquistas-item {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.dark .conquistas {
+  color: #1c1c1c;
+}
