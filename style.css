@@ -170,7 +170,7 @@ p codepen {
 
 .conquistas-foto {
   align: center;
-  height: 150px;
+  height: 220px;
 }
 
 .quadros {
@@ -184,14 +184,15 @@ p codepen {
   font-style: normal;
   font-size: 48px;
   padding-left: 0;
-  margin-top: -377px;
+  margin-top: -233px;
 }
 
 .conquistas-item {
   list-style-type: none;
   padding: 16px;
   background-color: lightyellow;
-  border-radius: 20px;
+  border-radius: 600px;
+  padding: 60px;
 }
 
 .dark .conquistas-item {
