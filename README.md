@@ -7,5 +7,4 @@
 Portfólio desenvolvido no codepen como parte da última aula da 5ª edição da imersão dev da Alura. 
 Nele estão reunidos os projetos desenvolvidos durante o evento, como embeds para o codepen
 
-<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" height="150">
-<img src="https://i.ytimg.com/vi/o8QJsQMJrPU/mqdefault.jpg" height="150">
+<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" height="150"> <img src="https://i.ytimg.com/vi/o8QJsQMJrPU/mqdefault.jpg" height="150">
