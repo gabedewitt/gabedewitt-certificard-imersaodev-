@@ -85,6 +85,7 @@ body {
 
 .projetos-titulos {
   font-weight: 700;
+  padding-left: 0;
   font-style: normal;
   font-size: 48px;
   list-style: none;
@@ -140,7 +141,8 @@ p codepen {
 }
 
 .dark .projetos {
-  color: #1c1c1c;
+  color: #f7f7f7;
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
 }
 
 .dark .logo-github {
@@ -163,11 +165,12 @@ p codepen {
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   border-radius: 20px;
+  justify-content: space-evenly;
 }
 
 .conquistas-foto {
   align: center;
-  width: 150px;
+  height: 150px;
 }
 
 .quadros {
@@ -181,13 +184,21 @@ p codepen {
   font-style: normal;
   font-size: 48px;
   padding-left: 0;
+  margin-top: -130px;
 }
 
 .conquistas-item {
   list-style-type: none;
   padding: 16px;
+  background-color: lightyellow;
+  border-radius: 20px;
+}
+
+.dark .conquistas-item {
+  background-color: darkgoldenrod;
 }
 
 .dark .conquistas {
-  color: #1c1c1c;
+  color: #f7f7f7;
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
 }
